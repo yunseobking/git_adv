@@ -1,3 +1,5 @@
+# Third commit
+
 from typing import List
 # Skeleton code for even_list
 def even_list(int_list: List[int]) -> List[int]:
@@ -22,6 +24,11 @@ Returns:
     """
     # TODO: Implement sum_of_squares_of_even
     pass
+    sum=0
+    for i in range(len(even_int_list)):
+        sum+=even_int_list[i] ** 2
+    return sum
+
 # Main function
 def main():
     # Example list
